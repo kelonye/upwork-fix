@@ -1,0 +1,76 @@
+*{
+  font-weight: normal !important;
+  color: #333 !important;
+}
+
+body{
+  /*font-size: 14px !important;*/
+  background: #fff !important;
+}
+
+a,
+p,
+h1,
+body{
+  font-family: Helvetica !important;
+}
+
+.oHeader .oTwizzlr .oLogo {
+  background-image: url('chrome-extension://__MSG_@@extension_id__/lib/icons/128.png') !important;
+  background-size: 60px 60px !important;
+  height: 62px !important;
+  width: 60px !important;
+  top: 3px !important;
+  left: 60px !important;
+}
+
+.btn-primary,
+.header-navbar-skinny .navbar-default.secondary-navbar, .header-navbar-visitor .navbar-default.secondary-navbar,
+.oFooter,
+.footer-navbar-wrapper,
+.oBtnPrimary, .oBtnVisitorPrimary,
+.oFrameSelector li.isChecked .oFSLabel,
+.oHeader .oTwizzlr .oNavTabpanel {
+  background: #00AFEF !important;
+  color: #fff !important;
+}
+
+.oFooter a,
+.oHeader .oTwizzlr .oSecondaryNavList a,
+.header-navbar-skinny .navbar-default.secondary-navbar .navbar-nav>li>a, .header-navbar-visitor .navbar-default.secondary-navbar .navbar-nav>li>a,
+.secondaryNavList a,
+.footer-navbar-wrapper a{
+  color: #fff !important;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover,
+.oFooter .oFooterText,
+.oHeader .oTwizzlr .oSecondaryNavList>.isCurrent a{
+  color: #111 !important;
+}
+
+a, .oBtnTertiary, .oBtnCancel, .oBtnPopup, .oThumbList figcaption, .oMoreSmall, .oLink,
+.oVisitedLink:visited,
+.oHeader .oTwizzlr .oNavTab.isCurrent,
+a.oLinkButton, a.oMore, a.oMoreLarge,
+.oTopicsNavigation.oLeftNav li.isCurrent .oTopic {
+  color: #00AFEF !important;
+}
+
+.social-icons-wrapper i{
+  color: #fff !important;
+}
+.oSocialIconBig{
+  background-color: #fff !important;
+}
+
+.oFrameSelector li.isChecked {
+  border-color: #00AFEF !important;
+}
+
+.oHeader .oTwizzlr .oDropdownItem:active,
+.oHeader .oTwizzlr .oDropdownItem:focus,
+.oHeader .oTwizzlr .oDropdownItem:hover{
+  border-color: #00AFEF !important;
+  color: #00AFEF !important;
+}
