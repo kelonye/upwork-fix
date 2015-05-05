@@ -1,3 +1,5 @@
+![](https://dl.dropboxusercontent.com/u/30162278/shot.png)
+
 Install
 ---
 
