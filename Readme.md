@@ -3,7 +3,7 @@
 Install
 ---
 
-Install extension at .
+Install extension from [Chrome Web Store](https://chrome.google.com/webstore/detail/upworkcom-fix/lkfkmclgcbiiimloolgamcfcdlhecfpa?hl=en-US&gl=001).
 
 Develop
 ---
