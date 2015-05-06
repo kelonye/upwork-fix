@@ -1,4 +1,4 @@
-![](https://dl.dropboxusercontent.com/u/30162278/shot.png)
+![](https://dl.dropboxusercontent.com/u/30162278/upwork-fix.png)
 
 Install
 ---

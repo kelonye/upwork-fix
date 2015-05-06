@@ -1,12 +1,11 @@
 {
   "name": "Upwork.com fix",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "manifest_version": 2,
   "content_security_policy": "script-src 'self' https://apis.google.com 'unsafe-eval'; object-src 'self'",
   "description": "Fix upwork.com styling",
   "icons": {
-    "16": "lib/icons/16.png",
-    "128": "lib/icons/128.png"
+    "128": "lib/icons/icon.png"
   },
   "content_scripts": [
     {
@@ -20,6 +19,6 @@
     "tabs"
   ],
   "web_accessible_resources": [
-    "lib/icons/128.png"
+    "lib/icons/icon.png"
   ]
 }

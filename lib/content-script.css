@@ -1,5 +1,5 @@
 *{
-  font-weight: normal !important;
+  font-weight: 400 !important;
   color: #333 !important;
 }
 
@@ -16,31 +16,29 @@ body{
 }
 
 .oHeader .oTwizzlr .oLogo {
-  background-image: url('chrome-extension://__MSG_@@extension_id__/lib/icons/128.png') !important;
+  /*background-image: url('chrome-extension://__MSG_@@extension_id__/lib/icons/icon.png') !important;
   background-size: 60px 60px !important;
   height: 62px !important;
   width: 60px !important;
   top: 3px !important;
-  left: 60px !important;
+  left: 60px !important;*/
 }
+
 
 .btn-primary,
-.header-navbar-skinny .navbar-default.secondary-navbar, .header-navbar-visitor .navbar-default.secondary-navbar,
 .oFooter,
 .footer-navbar-wrapper,
-.oBtnPrimary, .oBtnVisitorPrimary,
-.oFrameSelector li.isChecked .oFSLabel,
-.oHeader .oTwizzlr .oNavTabpanel {
-  background: #00AFEF !important;
+.oBtnPrimary,
+.oBtnVisitorPrimary,
+.oFrameSelector li.isChecked .oFSLabel{
+  background: rgb(43, 173, 45) !important;
   color: #fff !important;
 }
 
-.oFooter a,
 .oHeader .oTwizzlr .oSecondaryNavList a,
 .header-navbar-skinny .navbar-default.secondary-navbar .navbar-nav>li>a, .header-navbar-visitor .navbar-default.secondary-navbar .navbar-nav>li>a,
-.secondaryNavList a,
-.footer-navbar-wrapper a{
-  color: #fff !important;
+.secondaryNavList a{
+  color: #999 !important;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover,
@@ -49,14 +47,19 @@ body{
   color: #111 !important;
 }
 
+
+.oVisitedLink:visited ,
 a, .oBtnTertiary, .oBtnCancel, .oBtnPopup, .oThumbList figcaption, .oMoreSmall, .oLink,
 .oVisitedLink:visited,
 .oHeader .oTwizzlr .oNavTab.isCurrent,
 a.oLinkButton, a.oMore, a.oMoreLarge,
 .oTopicsNavigation.oLeftNav li.isCurrent .oTopic {
-  color: #00AFEF !important;
+  color: rgb(43, 173, 45) !important;
 }
 
+.oFooter a,
+.footer-navbar-wrapper p,
+.footer-navbar-wrapper a,
 .social-icons-wrapper i{
   color: #fff !important;
 }
@@ -65,12 +68,54 @@ a.oLinkButton, a.oMore, a.oMoreLarge,
 }
 
 .oFrameSelector li.isChecked {
-  border-color: #00AFEF !important;
+  border-color: rgb(43, 173, 45) !important;
 }
 
 .oHeader .oTwizzlr .oDropdownItem:active,
 .oHeader .oTwizzlr .oDropdownItem:focus,
 .oHeader .oTwizzlr .oDropdownItem:hover{
-  border-color: #00AFEF !important;
-  color: #00AFEF !important;
+  border-color: rgb(43, 173, 45) !important;
+  color: rgb(43, 173, 45) !important;
+}
+
+.oProfileBar {
+  border: 1px solid rgb(43, 173, 45) !important;
+}
+
+.oProfileBarFilled {
+  background-color: rgb(43, 173, 45) !important;
+  border-color: rgb(43, 173, 45) !important;
+}
+
+.oNavTab.isCurrent:before{
+  height: auto !important;
+}
+
+.header-navbar-skinny .navbar-condensed.primary-navbar .navbar-nav>li>a, .header-navbar-visitor .navbar-condensed.primary-navbar .navbar-nav>li>a,
+.oHeader .oTwizzlr .oNavCondensed .oNavTab{
+  background-color: #fff !important;
+  padding: 5px !important;
+  margin: 20px 10px !important;
+  border-radius: 3px !important;
+  border-color: #fff !important;
+  height: auto !important;
+  color: #999 !important;
+}
+
+.header-navbar-skinny .navbar-default.primary-navbar .navbar-nav>li.active a, .header-navbar-visitor .navbar-default.primary-navbar .navbar-nav>li.active a,
+.oHeader .oTwizzlr .oNavTab.isCurrent {
+  background-color: rgb(43, 173, 45) !important;
+  color: white !important;
+}
+
+.header-navbar-skinny .navbar-default.secondary-navbar, .header-navbar-visitor .navbar-default.secondary-navbar,
+.oHeader .oTwizzlr .oNavTabpanel {
+  background: #fff !important;
+}
+
+.o-tag-skill,
+.oFormInfo,
+.oSkill {
+  background-color: #eee !important;
+  color: #000 !important;
 }
