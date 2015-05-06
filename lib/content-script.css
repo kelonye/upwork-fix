@@ -8,11 +8,10 @@ body{
   background: #fff !important;
 }
 
-a,
 p,
 h1,
 body{
-  font-family: Helvetica !important;
+  font-family: Helvetica, 'URW Gothic L', Arial !important;
 }
 
 .oHeader .oTwizzlr .oLogo {
@@ -48,9 +47,8 @@ body{
 }
 
 
-.oVisitedLink:visited ,
+a.oVisitedLink:visited,
 a, .oBtnTertiary, .oBtnCancel, .oBtnPopup, .oThumbList figcaption, .oMoreSmall, .oLink,
-.oVisitedLink:visited,
 .oHeader .oTwizzlr .oNavTab.isCurrent,
 a.oLinkButton, a.oMore, a.oMoreLarge,
 .oTopicsNavigation.oLeftNav li.isCurrent .oTopic {
@@ -119,3 +117,13 @@ a.oLinkButton, a.oMore, a.oMoreLarge,
   background-color: #eee !important;
   color: #000 !important;
 }
+
+#onboarding {
+  background: rgb(43, 173, 45) !important;
+  color: white !important;
+}
+
+#onboarding a {
+  color: white !important;
+  text-decoration: underline !important;
+};
