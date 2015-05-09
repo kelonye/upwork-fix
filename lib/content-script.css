@@ -3,16 +3,15 @@
   color: #333 !important;
 }
 
+*:not(.oNavIcon):not([class^="icon"]):not([class*="icon"]){
+  font-family: Helvetica, 'URW Gothic L', Arial !important;
+}
+
 body{
   /*font-size: 14px !important;*/
   background: #fff !important;
 }
 
-p,
-h1,
-body{
-  font-family: Helvetica, 'URW Gothic L', Arial !important;
-}
 
 .oHeader .oTwizzlr .oLogo {
   /*background-image: url('chrome-extension://__MSG_@@extension_id__/lib/icons/icon.png') !important;
@@ -53,6 +52,13 @@ a, .oBtnTertiary, .oBtnCancel, .oBtnPopup, .oThumbList figcaption, .oMoreSmall, 
 a.oLinkButton, a.oMore, a.oMoreLarge,
 .oTopicsNavigation.oLeftNav li.isCurrent .oTopic {
   color: rgb(43, 173, 45) !important;
+}
+
+.btn-primary,
+.btn-primary[disabled],
+.btn-primary[disabled]:active,
+.btn-primary[disabled]:hover{
+  outline-color: transparent !important;
 }
 
 .oFooter a,
@@ -126,4 +132,8 @@ a.oLinkButton, a.oMore, a.oMoreLarge,
 #onboarding a {
   color: white !important;
   text-decoration: underline !important;
-};
+}
+
+.method-example *{
+  color: #fff !important;
+}
