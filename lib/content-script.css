@@ -3,8 +3,8 @@
   color: #333 !important;
 }
 
-*:not(.oNavIcon):not([class^="icon"]):not([class*="icon"]){
-  font-family: Helvetica, 'URW Gothic L', Arial !important;
+*:not([class*="Icon"]):not([class^="Icon"]):not([class^="icon"]):not([class*="icon"]){
+  /*font-family: Helvetica, 'URW Gothic L', Arial !important;*/
 }
 
 body{
@@ -115,6 +115,11 @@ a.oLinkButton, a.oMore, a.oMoreLarge,
 .header-navbar-skinny .navbar-default.secondary-navbar, .header-navbar-visitor .navbar-default.secondary-navbar,
 .oHeader .oTwizzlr .oNavTabpanel {
   background: #fff !important;
+}
+
+.oSocialIconBig{
+  color: white !important;
+  background-color: rgb(43, 173, 45) !important;
 }
 
 .o-tag-skill,
